@@ -1,0 +1,45 @@
+\documentclass{standalone}
+\usepackage{hieroglf,times,amsmath,stmaryrd,tipa}
+
+\usepackage{xcolor, soul}
+\definecolor{verylightgray}{gray}{0.8}
+\sethlcolor{verylightgray}
+
+\usepackage[normalem]{ulem}
+
+\newcommand{\aeg}[2][\normalsize]{{#1\pmglyph{#2}}}
+% \def\aeg#1{{\tiny\pmglyph{#1}}}
+\def\tran#1{\translitpmhgfont{#1}}
+\usepackage{amsmath}
+
+\begin{document}
+\def\sp{\kern.25em}
+% \begin{table}[h!]
+	\begin{tabular}{|c||ccccccccccccccccccccc}\hline
+		C+                        & \textyogh        & \tran{\Hic} & `   & w                 & b              & p         & m           & n                            & r         & \d{h} & z           & s              & \d{k} & k & t   & d   & \underline{d} \\ \hline\hline
+		\textyogh\sp\aeg{\Ha}     &                  &             &     & \aeg{\HZ}         & ???            &           &             &                              &           &       &             &                &       &   &     &     &               \\\hline
+		\tran{\Hic}\sp\aeg{\Hi}   &                  &             &     & \aeg{\HL}         & \aeg{\HFxxxiv} &           & \aeg{\HM}   & \aeg{\HF}                    & \aeg{\He} &       & \aeg{\HYiV} &                &       &   &     & ??? &               \\\hline
+		`\sp\aeg{\HA}             & ???              &             &     &                   &                &           &             &                              &           &       &             &                & ???   &   &     &     & ???           \\\hline
+		w\sp\aeg{\Hw}             & \aeg{\Ho}        &             & ??? &                   &                & ???       &             & ???                          & \aeg{\HR} &       &             &                &       &   &     &     & ???           \\\hline
+		b\sp\aeg{\Hb}             & \aeg{\Hibw}      &             &     &                   &                &           &             &                              &           & ???   &             &                &       &   &     &     &               \\\hline
+		p\sp\aeg{\Hp}             & ???              &             &     &                   &                &           &             &                              & \aeg{\Hj} & ???   &             &                &       &   &     &     &               \\\hline
+		m\sp\aeg{\Hm}             & ???              & ???         &     & \aeg{\Hn:\Hn:\Hn} &                &           &             & ???                          & ???       & ???   &             & ???            &       &   & ??? &     & ???           \\\hline
+		n\sp\aeg{\Hn}             &                  & ???         &     & ???               & ???            &           & ???         & \aeg{\HSxxxix}\aeg{\HSxxxix} & ???       & ???   &             & \aeg{\Htongue} &       &   &     &     & ???           \\\hline
+		r\sp\aeg{\Hr}             &                  &             &     & ???               &                &           &             &                              &           &       &             & ???            &       &   &     &     &               \\\hline
+		h\sp\aeg{\HH}             & ???              &             &     & ???               &                & ???       & \aeg{\HJ}   & ???                          & \aeg{\Hq} &       & ???         &                &       &   &     &     & ???           \\\hline
+		\uunder{h}\sp\aeg{\HC}    & \aeg{\Hthousand} &             & ??? & ???               &                &           &             &                              & ???       &       &             &                &       &   & ??? &     &               \\\hline
+		\underline{h}\sp???       & ???              &             &     &                   &                &           &             & ???                          & ???       &       &             &                &       &   &     &     &               \\\hline
+		z\sp\aeg{\HS}             & ???              &             &     &                   &                &           &             &                              &           &       &             &                &       &   &     &     &               \\\hline
+		s\sp\aeg{\Hs}             & ???              &             &     & ???               &                &           &             & ???                          &           &       &             &                &       & ? & ??? &     &               \\\hline
+		\v{s}\sp\aeg{\Hz}         & \aeg{\HE}        &             &     & ???               &                &           &             & ???                          &           &       &             & ???            &       &   &     & ??? &               \\\hline
+		\d{k}\sp\aeg{\HK}         &                  &             &     &                   & ???            &           &             &                              &           &       &             &                &       &   &     & ??? &               \\\hline
+		k\sp\aeg{\Hk}             & ???              &             &     &                   &                & ???       & ???         &                              &           &       &             &                &       &   &     &     &               \\\hline
+		g\sp\aeg{\Hg}             & ???              &             &     &                   &                &           & \aeg{\Hibl} &                              &           &       &             & \aeg{\HAaxii}  &       &   &     &     &               \\\hline
+		t\sp\aeg{\Ht}             & ???              & ???         &     & ???               &                & \aeg{\HQ} & ???         &                              & ???       &       &             &                &       &   &     &     &               \\\hline
+		\underline{t}\sp\aeg{\HT} & ???              &             &     &                   &                &           &             &                              &           &       & ???         &                &       &   &     &     &               \\\hline
+		d\sp\aeg{\Hd}             &                  &             &     &                   &                &           &             &                              &           &       &             &                &       &   &     &     &               \\\hline
+		\underline{d}\sp\aeg{\HD} & ???              &             &     & ???               &                &           & \aeg{\Hc}   & ???                          & ???       &       &             &                &       &   &     & ??? &               \\\hline
+	\end{tabular}
+% 	\caption{Prospetto dei segni dilitteri più comuni}
+% \end{table}
+\end{document}
